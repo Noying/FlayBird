@@ -1,0 +1,522 @@
+{
+	"version": "0.4.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"enabled": true,
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"opacity": 255,
+				"groupIndex": 0,
+				"colliders": []
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 640,
+							"h": 960
+						},
+						"enabled": true,
+						"name": "Canvas",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"opacity": 255,
+						"position": {
+							"x": 320,
+							"y": 480
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"skewX": 0,
+						"skewY": 0,
+						"groupIndex": 0,
+						"colliders": []
+					},
+					"spriteFrameName": "texture/bg_day.png",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": true,
+					"sizeMode": "Custom"
+				},
+				"object_type": "Sprite",
+				"children": [
+					{
+						"object": {
+							"contentSize": {
+								"w": 0,
+								"h": 0
+							},
+							"enabled": true,
+							"name": "Main Camera",
+							"anchorPoint": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"color": {
+								"r": 255,
+								"g": 255,
+								"b": 255
+							},
+							"opacity": 255,
+							"position": {
+								"x": 0,
+								"y": 0
+							},
+							"rotationSkewX": 0,
+							"rotationSkewY": 0,
+							"skewX": 0,
+							"skewY": 0,
+							"groupIndex": 0,
+							"colliders": []
+						},
+						"object_type": "Node",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 178,
+									"h": 48
+								},
+								"enabled": true,
+								"name": "title",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"position": {
+									"x": 0,
+									"y": 336
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"spriteFrameName": "texture/title.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 180,
+									"h": 60
+								},
+								"enabled": true,
+								"name": "StartGameBtn",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"position": {
+									"x": 0,
+									"y": 66
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "texture/button.png",
+							"transition": 2,
+							"pressedSpriteFrameName": "image/default_btn_pressed.png",
+							"disabledSpriteFrameName": "image/default_btn_disabled.png"
+						},
+						"object_type": "Button",
+						"children": [
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 120,
+											"h": 40
+										},
+										"enabled": true,
+										"name": "Label",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"opacity": 255,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"skewX": 0,
+										"skewY": 0,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"fontSize": 20,
+									"labelText": "Start Game",
+									"horizontalAlignment": "Center",
+									"verticalAlignment": "Center",
+									"overflowType": "Clamp",
+									"enableWrap": false,
+									"fontType": "System",
+									"fontName": "arial"
+								},
+								"object_type": "Label",
+								"children": []
+							}
+						]
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 180,
+									"h": 60
+								},
+								"enabled": true,
+								"name": "ScoreBtn",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"position": {
+									"x": 0,
+									"y": -30
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "texture/button.png",
+							"transition": 2,
+							"pressedSpriteFrameName": "image/default_btn_pressed.png",
+							"disabledSpriteFrameName": "image/default_btn_disabled.png"
+						},
+						"object_type": "Button",
+						"children": [
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 120,
+											"h": 40
+										},
+										"enabled": true,
+										"name": "Label",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"opacity": 255,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"skewX": 0,
+										"skewY": 0,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"fontSize": 20,
+									"labelText": "Score",
+									"horizontalAlignment": "Center",
+									"verticalAlignment": "Center",
+									"overflowType": "Clamp",
+									"enableWrap": false,
+									"fontType": "System",
+									"fontName": "arial"
+								},
+								"object_type": "Label",
+								"children": []
+							}
+						]
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 180,
+									"h": 60
+								},
+								"enabled": true,
+								"name": "SettingsBtn",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"opacity": 255,
+								"position": {
+									"x": 0,
+									"y": -126
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"skewX": 0,
+								"skewY": 0,
+								"groupIndex": 0,
+								"colliders": []
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "texture/button.png",
+							"transition": 2,
+							"pressedSpriteFrameName": "image/default_btn_pressed.png",
+							"disabledSpriteFrameName": "image/default_btn_disabled.png"
+						},
+						"object_type": "Button",
+						"children": [
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 180,
+											"h": 60
+										},
+										"enabled": true,
+										"name": "Label",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"opacity": 255,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"skewX": 0,
+										"skewY": 0,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"fontSize": 20,
+									"labelText": "Settings",
+									"horizontalAlignment": "Center",
+									"verticalAlignment": "Center",
+									"overflowType": "Clamp",
+									"enableWrap": false,
+									"fontType": "System",
+									"fontName": "arial"
+								},
+								"object_type": "Label",
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"spriteFrames": [
+		{
+			"name": "texture/title.png",
+			"texturePath": "creator/texture/title.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 178,
+				"h": 48
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 178,
+				"h": 48
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 178,
+				"h": 48
+			}
+		},
+		{
+			"name": "texture/button.png",
+			"texturePath": "creator/texture/button.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 80,
+				"h": 28
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 80,
+				"h": 28
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 80,
+				"h": 28
+			}
+		},
+		{
+			"name": "image/default_btn_pressed.png",
+			"texturePath": "creator/image/default_btn_pressed.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 40
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 12,
+				"y": 12,
+				"w": 16,
+				"h": 16
+			}
+		},
+		{
+			"name": "image/default_btn_disabled.png",
+			"texturePath": "creator/image/default_btn_disabled.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 40
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 12,
+				"y": 12,
+				"w": 16,
+				"h": 16
+			}
+		},
+		{
+			"name": "texture/bg_day.png",
+			"texturePath": "creator/texture/bg_day.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 288,
+				"h": 512
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 288,
+				"h": 512
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 288,
+				"h": 512
+			}
+		}
+	],
+	"collisionMatrix": [
+		{
+			"value": [
+				true
+			]
+		}
+	]
+}
